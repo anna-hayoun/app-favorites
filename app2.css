@@ -1,0 +1,153 @@
+@font-face 
+{
+    font-family: 'geliat';
+    src: url(Geliat.otf);
+    font-family: 'yanoner';
+    src: url(Yanoneregular.ttf);
+    font-family: 'fira';
+    src: url(Fira.ttf);
+    font-family: 'playfair';
+    src: url(playfair.ttf);
+}
+
+body
+{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(226,58,58,1) 100%);
+}
+
+p
+{
+    font-family: 'geliat', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-bottom: 4%;
+    margin-left: 4%;
+}
+
+#ban1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ban1:nth-child(2)
+{
+    font-size: xx-large;
+    font-family: 'playfair', Arial, Helvetica, sans-serif;
+    margin-right: 55%;
+    margin-top: 2.5%;
+}
+
+.ban1:nth-child(1)
+{
+    width: 100px;
+    border-radius: 20px;
+    border: 2px black solid;
+    padding: 10px;
+    margin-top: 25%;
+}
+
+#menu
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    background-color: rgb(236, 77, 77);
+    padding: 2%;
+    margin-top: 2%;
+}
+
+.link
+{
+   padding: 7px;
+   font-family: 'geliat', Arial, Helvetica, sans-serif;
+   font-size: 150%;
+}
+
+a:visited
+{
+    color: rgb(94, 30, 110);
+    text-decoration: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+h3
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    font-size: 35px;
+    font-family: 'fira', Arial, Helvetica, sans-serif;
+}
+
+#ban2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: rgb(228, 106, 106) solid;
+    border-radius: 20px;
+    background-color: rgb(236, 77, 77);
+    width: 500px;
+    height: 100px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+}
+
+.ban2:nth-child(1)
+{
+    width: 60%;
+    background-color: seashell;
+    border-radius: 5px;
+    margin-left: -80%;
+}
+
+.ban2:nth-child(2)
+{
+    color: cornsilk;
+    font-size: 25px;
+    font-family: 'yanoner', Arial, Helvetica, sans-serif;
+    margin-top: -2%;
+    margin-right: 7%;
+}
+
+.plus
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: rgb(228, 106, 106) solid;
+    border-radius: 20px;
+    background-color: rgb(236, 77, 77);
+    width: 500px;
+    height: 100px;
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.ele1:nth-child(1)
+{
+    order: 2;
+    margin-top: 3%;
+    margin-left: -200%;
+}
+
+.ele1:nth-child(2)
+{
+    order: 1;
+    font-size: x-large;
+}
+
+.intro
+{
+    text-align: center;
+}
